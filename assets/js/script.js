@@ -1006,25 +1006,25 @@
         = COUNTDOWN CLOCK
     -------------------------------------------*/
     if ($("#clock").length) {
-        $('#clock').countdown('2024-12-07 20:30:00', function (event) {
+        $('#clock').countdown('2024-12-07 15:30:00', function (event) {
             var $this = $(this).html(event.strftime(''
                 // + '<div class="box"><div><div class="time">%m</div> <span>Month</span> </div></div>'
-                + '<div class="box"><div><div class="time">%D</div> <span>Days</span> </div></div>'
-                + '<div class="box"><div><div class="time">%H</div> <span>Hours</span> </div></div>'
-                + '<div class="box"><div><div class="time">%M</div> <span>Mins</span> </div></div>'
-                + '<div class="box"><div><div class="time">%S</div> <span>Secs</span> </div></div>'));
+                + '<div class="box"><div><div class="time">%D</div> <span>días</span> </div></div>'
+                + '<div class="box"><div><div class="time">%H</div> <span>horas</span> </div></div>'
+                + '<div class="box"><div><div class="time">%M</div> <span>minutos</span> </div></div>'
+                + '<div class="box"><div><div class="time">%S</div> <span>segundos</span> </div></div>'));
         });
     }
     /*------------------------------------------
         = COUNTDOWN CLOCK
     -------------------------------------------*/
     if ($("#clock2").length) {
-        $('#clock2').countdown('2024-12-07 20:30:00', function (event) {
+        $('#clock2').countdown('2024-12-07 15:30:00', function (event) {
             var $this = $(this).html(event.strftime(''
-                + '<div class="box"><div><div class="time">%D</div> <span>Days</span> </div></div>'
-                + '<div class="box"><div><div class="time">%H</div> <span>Hours</span> </div></div>'
-                + '<div class="box"><div><div class="time">%M</div> <span>Mins</span> </div></div>'
-                + '<div class="box"><div><div class="time">%S</div> <span>Secs</span> </div></div>'));
+                + '<div class="box"><div><div class="time">%D</div> <span>días</span> </div></div>'
+                + '<div class="box"><div><div class="time">%H</div> <span>horas</span> </div></div>'
+                + '<div class="box"><div><div class="time">%M</div> <span>minutos</span> </div></div>'
+                + '<div class="box"><div><div class="time">%S</div> <span>segundos</span> </div></div>'));
         });
     }
 
@@ -1032,7 +1032,7 @@
         = COUNTDOWN CLOCK
     -------------------------------------------*/
     if ($("#clock3").length) {
-        $('#clock3').countdown('2023-11-01 20:30:00', function (event) {
+        $('#clock3').countdown('2024-12-07 15:30:00', function (event) {
             var $this = $(this).html(event.strftime(''
                 + '<div class="box"><div><div class="time">%D</div> <span>أيام</span> </div></div>'
                 + '<div class="box"><div><div class="time">%H</div> <span>ساعات</span> </div></div>'
