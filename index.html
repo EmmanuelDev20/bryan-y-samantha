@@ -240,25 +240,28 @@
 
         <section class="wpo-event-section-s2 section-padding pt-0" id="event">
             <div class="container">
-                <div class="wpo-section-title">
+                <div class="wpo-section-title" style="margin-bottom: 0;">
                     <div class="vector">
-                        <img style="max-width: 150px;" src="assets/images/dress_code.svg" alt="">
+                        <img style="max-width: 150px; color: red;" src="assets/images/dress.svg" alt="">
                     </div>
-                    <span>Código de vestimenta</span>
+                    <span style="color: #335443;">Código de vestimenta:</span>
                     <!-- <h2>¿Dónde?</h2> -->
                 </div>
 
-                <p style="text-align: center;">
-                    Semi formal para boda, tipo: <a 
-                    href="https://www.google.com/search?q=codigo+de+vestimenta+c%C3%B3ctel&sca_esv=247a3cc0ba513c42&udm=2&biw=1512&bih=857&sxsrf=ADLYWIIziNzeiq4GFuzDkvcAkbW6Mpz_yg%3A1728496016849&ei=kMEGZ-3QM6D_wbkPk62ugAc&ved=0ahUKEwjt2NG47YGJAxWgfzABHZOWC3AQ4dUDCBA&oq=codigo+de+vestimenta+cocktail&gs_lp=EgNpbWciHWNvZGlnbyBkZSB2ZXN0aW1lbnRhIGNvY2t0YWlsMgQQIxgnSNAEUABYAHABeACQAQCYAYABoAGAAaoBAzAuMbgBDMgBAJgCAaACAZgDAIgGAZIHATGgB4wC&sclient=img" 
-                    style="color: white;
-                           background-color: #C8A898;
-                           padding: 10px 20px;
-                           display: block;
-                           max-width: 200px;
-                           margin: auto;
-                        "
-                    target="_blank">CÓCTEL</a></p>
+                <a 
+                href="https://www.google.com/search?q=codigo+de+vestimenta+c%C3%B3ctel&sca_esv=247a3cc0ba513c42&udm=2&biw=1512&bih=857&sxsrf=ADLYWIIziNzeiq4GFuzDkvcAkbW6Mpz_yg%3A1728496016849&ei=kMEGZ-3QM6D_wbkPk62ugAc&ved=0ahUKEwjt2NG47YGJAxWgfzABHZOWC3AQ4dUDCBA&oq=codigo+de+vestimenta+cocktail&gs_lp=EgNpbWciHWNvZGlnbyBkZSB2ZXN0aW1lbnRhIGNvY2t0YWlsMgQQIxgnSNAEUABYAHABeACQAQCYAYABoAGAAaoBAzAuMbgBDMgBAJgCAaACAZgDAIgGAZIHATGgB4wC&sclient=img" 
+                style="color: white;
+                       background-color: #335443;
+                       padding: 10px 20px;
+                       display: block;
+                       max-width: 200px;
+                       margin: auto;
+                       text-align: center;
+                    "
+                target="_blank">CÓCTEL</a>
+                <!-- <p style="text-align: center;">
+                    Semi formal para boda, tipo:
+                </p> -->
             </div> <!-- end container -->
         </section>
         <!-- end wpo-event-section -->
@@ -271,49 +274,40 @@
                         <div class="wpo-contact-section-wrapper wow fadeInLeftSlow" data-wow-duration="1700ms">
                             <div class="wpo-contact-form-area">
                                 <div class="wpo-section-title">
-                                    <h2>Por favor confirmar asistencia a más tardar el 07 de noviembre</h2>
+                                    <h2>Favor confirmar asistencia antes del <br>
+                                        07 de noviembre</h2>
                                 </div>
 
-                                <a href="https://api.whatsapp.com/send?phone=50683044962&text=*Boda de Bryan & Valery* ♥️ \n\n Hola," 
-                                   target="_blank"
-                                   style="display: flex; align-items: center; justify-content: center; gap: 1rem; background-color: #faede7; padding: 10px 0; max-width: 140px; margin: auto; margin-bottom: 1rem;">
+                                <button id="valery-btn"
+                                        style="display: flex; 
+                                               align-items: center; 
+                                               justify-content: center; 
+                                               gap: 1rem; 
+                                               background-color: #e6ece3; 
+                                               padding: 10px 20px;  
+                                               margin: auto; 
+                                               margin-bottom: 1rem;
+                                               outline: none;
+                                               border: none;">
                                     <img style="width: 35px;" src="assets/images/whatsapp.png" alt="">
                                     <p style="margin-bottom: 0;">Valery</p>
-                                </a>
+                                </button>
 
-                                <a href="https://api.whatsapp.com/send?phone=50683142781&text=*Boda de Bryan & Valery* ♥️ \n\n Hola," 
-                                   target="_blank"
-                                   style="display: flex; align-items: center; justify-content: center; gap: 1rem; background-color: #faede7; padding: 10px 0; max-width: 140px; margin: auto;">
+                                <button id="bryan-btn"
+                                        style="display: flex; 
+                                               align-items: center; 
+                                               justify-content: center; 
+                                               gap: 1rem; 
+                                               background-color: #e6ece3; 
+                                               padding: 10px 20px;  
+                                               margin: auto; 
+                                               margin-bottom: 1rem;
+                                               outline: none;
+                                               border: none;">
                                     <img style="width: 35px;" src="assets/images/whatsapp.png" alt="">
                                     <p style="margin-bottom: 0;">Bryan</p>
-                                </a>
-                                <!-- <form class="contact-validation-active" id="contact-form">
-                                    <div>
-                                        <input type="text" class="form-control" name="name" id="name"
-                                            placeholder="Nombre completo">
-                                    </div>
-                                    <div class="radio-buttons">
-                                        <p>
-                                            <input type="radio" id="attend" name="radio-group" checked>
-                                            <label for="attend">¡Sí, de fijo voy!</label>
-                                        </p>
-                                        <p>
-                                            <input type="radio" id="not" name="radio-group">
-                                            <label for="not">Lo siento, no voy a poder ir.</label>
-                                        </p>
-                                    </div>
-                                    <div class="submit-area">
-                                        <button type="submit" class="theme-btn">Enviar</button>
-                                        <div id="c-loader">
-                                            <i class="ti-reload"></i>
-                                        </div>
-                                    </div>
-                                    <div class="clearfix error-handling-messages">
-                                        <div id="success">Thank you</div>
-                                        <div id="error"> Error occurred while sending email. Please try again later.
-                                        </div>
-                                    </div>
-                                </form> -->
+                                </button>
+
                             </div>
                         </div>
                     </div>
@@ -355,26 +349,24 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", (event) => {
-            const contactForm = document.getElementById('contact-form')
+            const valeBtn = document.getElementById('valery-btn');
+            const bryanBtn = document.getElementById('bryan-btn');
 
-            contactForm.addEventListener('submit', (e) => {
-                e.preventDefault();
-                console.log('form submitted');
-                const name = document.getElementById('name').value;
-                const attend = document.getElementById('attend').checked;
-                const not = document.getElementById('not').checked;
-
-                const message = `*Boda de Bryan & Valery* ♥️ \n\n Hola, soy: ${name} \n ${attend ? '¡Sí, de fijo voy!' : 'Lo siento, no voy a poder ir.'}`;
-
-                function sendMessage(message) {
-                    const phoneNumber = "+50683044962"; // Replace with the recipient's phone number
-                    const encodedMessage = encodeURIComponent(message);
-                    const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;
-                    window.open(whatsappUrl, '_blank');
-                }
-
-                sendMessage(message);
+            valeBtn.addEventListener('click', function() {
+                sendMessage('83044962');
             })
+
+            bryanBtn.addEventListener('click', function() {
+                sendMessage('83142781');
+            })
+
+            function sendMessage(number) {
+                const message = `*Boda de Bryan & Valery* ♥️ \n\n Hola, `;
+                const phoneNumber = "+506" + number; // Replace with the recipient's phone number
+                const encodedMessage = encodeURIComponent(message);
+                const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;
+                window.open(whatsappUrl, '_blank');
+            }
         });
         
     </script>
